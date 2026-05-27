@@ -1,0 +1,9 @@
+#seach number x from tuple 
+tup=(2,4,6,8,10)
+n=int(input("enter number"))
+idx=0
+for el in tup:
+    if(el==n):
+        print("index of num is",idx)
+        break
+    idx=idx+1
