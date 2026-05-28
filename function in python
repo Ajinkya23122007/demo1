@@ -1,0 +1,19 @@
+#wap to print the lenght of the list(list is the parameter)
+# numbers=[1,2,3,4,5]
+# def printlen(list):
+#     print(len(list))
+
+# printlen(numbers) 
+   
+#waf to print the ele of a list in a single line(list is the parameters)
+num=[1,2,3,4,5]
+def sgl_line(list):
+    print(len(list))
+
+def print_list(list):
+    for item in list:
+        print(item, end=" ")    
+
+print_list(num)
+
+    
