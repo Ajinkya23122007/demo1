@@ -1,5 +1,14 @@
-f=open("c:/Users/Aditya/Desktop/gitdemo1/demo1/demo.txt","r")
-data=f.readline()
-print(data)
+# f=open("sers/Aditya/Desktop/gitdemo1/demo1/demo.txt","r")
+# data=f.readline()
+# print(data)
 
+f=open("C:/Users/Aditya/Desktop/gitdemo1/demo1/sample.txt","r")
+data=f.read()
+newdata=data.replace("java","python")
+print(newdata)
 f.close()
+
+f=open("C:/Users/Aditya/Desktop/gitdemo1/demo1/sample.txt","w")
+f.write(newdata)
+
+

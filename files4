@@ -1,0 +1,22 @@
+# f=open("C:/Users/Aditya/Desktop/gitdemo1/demo1/sample.txt","r")
+# data=f.read()
+# if(data.find(learing) !=-1):
+#     print("found")
+# else:
+#     print("not found")   
+# f.close()    
+
+def check_for_line():
+    word="pyq"
+    data= True
+    lineno=1
+    with open("C:/Users/Aditya/Desktop/gitdemo1/demo1/sample.txt","r") as f:
+        while data:
+            data=f.readline()
+            if(word in data):
+                print(lineno)
+                return
+            lineno=lineno+1    
+
+    return -1
+print(check_for_line())       

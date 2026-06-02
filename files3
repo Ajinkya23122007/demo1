@@ -1,4 +1,4 @@
-f=open("c:/Users/Aditya/Desktop/gitdemo1/demo1/demo.txt","w+")
+f=open("C:/Users/Aditya/Desktop/gitdemo1/demo1/sample.txt","r")
 
 print(f.read())
 f.write("adb")
