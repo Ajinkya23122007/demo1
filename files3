@@ -1,0 +1,5 @@
+f=open("c:/Users/Aditya/Desktop/gitdemo1/demo1/demo.txt","w+")
+
+print(f.read())
+f.write("adb")
+f.close()

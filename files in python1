@@ -1,0 +1,4 @@
+f=open("sample.txt","w")
+
+f.write("\nthen ill move to ml")
+f.close()
