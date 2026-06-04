@@ -1,0 +1,35 @@
+class student:
+    college_name="abc college"
+    name="karn"
+
+    def __init__(self,name,marks):
+
+        self.name=name #obj attr> class attr
+        self.marks= marks
+        print("adding new student in database..")
+
+s1 = student ("aj",97)
+print(s1.name)        
+
+class student:
+    def __init__(self,name,sub1,sub2,sub3):
+        self.name=name
+        self.sub1=sub1
+        self.sub2=sub2
+        self.sub3=sub3
+        
+
+    def avg(self):
+        sum=self.sub1+self.sub2+self.sub3
+        avgrage=sum/3
+        print("the avgrage is:",{avgrage})
+           
+
+s1= student("ajinkya",76,87,96) 
+s1.avg()
+
+s1.name="ironaman"
+s1.avg()
+
+
+

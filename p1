@@ -1,0 +1,15 @@
+class account:
+    def __init__(self,bal,acc):
+        self.bal=bal
+        sef.acc=acc
+
+
+    def debit(self,amount):
+        self.bal -=amount
+        print(amount)
+              
+
+
+    def debit(self,amount):
+        self.bal=amount
+        print(amount)
