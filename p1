@@ -1,15 +1,25 @@
 class account:
     def __init__(self,bal,acc):
         self.bal=bal
-        sef.acc=acc
+        self.acc=acc
 
 
     def debit(self,amount):
         self.bal -=amount
-        print(amount)
+        print("rs",amount,"is debited  ")
+        print("reaminig balacnce",self.bal)
+              
               
 
 
-    def debit(self,amount):
-        self.bal=amount
-        print(amount)
+    def credit(self,amount):
+        self.bal +=amount
+        print("rs",amount,"is credited")
+        print("reaminig balacnce",self.bal)
+
+    def remaing_bal(self):
+        print(self.acc)    
+
+s1=account(10000,20976)
+s1.debit(1000)
+s1.credit(500)
