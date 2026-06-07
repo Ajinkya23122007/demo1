@@ -1,0 +1,10 @@
+#program to check if a number is poditve or nrgative of zero number
+num=int(input("enter the number"))
+if num > 0:
+    print(" number is positive number")
+
+elif num < 0:
+    print("the numberis negative number")
+
+else:
+    print("is a zaro number")        
