@@ -8,3 +8,12 @@ elif num < 0:
 
 else:
     print("is a zaro number")        
+
+#to check if a given number is even or odd number
+num=int(input("enter a number"))
+if num%2==0:
+    print("number is a even number")
+else:
+    print("number is a odd number")    
+
+    
