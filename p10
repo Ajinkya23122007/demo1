@@ -2,3 +2,21 @@
 num=int(input("enter a number"))
 for i in range(1,11):
     print(num ,"x", i ,"=",num*i)
+
+
+#python program to print fibnacci series
+num=int(input("enter a number for a fibaocci series"))
+a=0
+b=1
+if (num==1) or (num==0):
+    print(0)
+else:
+        print(a)
+        print(b)
+        for i in range(0,num+1):
+                       
+             c=a+b
+             a=b
+             b=c
+             print(c)
+
