@@ -20,3 +20,20 @@ else:
              b=c
              print(c)
 
+#python program to armstrong number
+num=int(input("enter a number"))
+
+sum=0
+temp=num
+while num>0:
+     digit=num%10
+     sum=sum + digit**3
+     num=num/10
+
+if sum==temp:
+     print("its a armstrong  number")
+
+else:
+     print("its not a armstrong number")          
+                  
+
