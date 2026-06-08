@@ -1,0 +1,6 @@
+#python program to genarate a random number on dice
+
+import random
+
+num=random.randint(1,6)
+print(num)
