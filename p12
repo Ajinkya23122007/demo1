@@ -3,4 +3,12 @@ num=int(input("enter a number to be checked the disibility"))
 for i in range(1,100):
     if i%num==0:
         print(i)
+
+#python program to decimal to binary ,octa and hexadecimal
+decimal=int(input("enter a number"))
+print("the coverstion of decimal number ",decimal,"is")
+print(bin(decimal),"in binary")
+print(oct(decimal),"in octa")
+print(hex(decimal),"in hexadecimal")
+
     
