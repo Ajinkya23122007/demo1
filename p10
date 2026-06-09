@@ -9,16 +9,15 @@ num=int(input("enter a number for a fibaocci series"))
 a=0
 b=1
 if (num==1) or (num==0):
-    print(0)
+     print(0)
 else:
-        print(a)
-        print(b)
-        for i in range(0,num+1):
-                       
-             c=a+b
-             a=b
-             b=c
-             print(c)
+     print(a)
+     print(b)
+     for i in range(0,num+1):
+          c=a+b
+          a=b
+          b=c
+          print(c)
 
 #python program to armstrong number
 num=int(input("enter a number"))
@@ -27,8 +26,13 @@ sum=0
 temp=num
 while num>0:
      digit=num%10
+     print(digit)
      sum=sum + digit**3
-     num=num/10
+     print(sum)
+     num=int(num/10)
+     print(num)
+
+print(sum)
 
 if sum==temp:
      print("its a armstrong  number")
