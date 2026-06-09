@@ -11,4 +11,6 @@ print(bin(decimal),"in binary")
 print(oct(decimal),"in octa")
 print(hex(decimal),"in hexadecimal")
 
-    
+#python program to find ascii value of character 
+char="A12" 
+print("the ascii value of ",char,"is",ord(char))
