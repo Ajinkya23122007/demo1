@@ -9,9 +9,23 @@ for num in range(lower,upper+1):
     while temp>0:
         digit=temp%10
         sum=sum + digit ** order
-        num=int(temp/10)
+        temp //=10
     if num==sum:
         print(num)
+
+#python pprogram to find sum of natural numbers
+num=int(input("enter a upper limit number"))
+sum=0
+if num<0:
+    print("please enter a positive number")
+else:
+    for i in range(1,num+1):
+        sum=sum+i
+
+print(sum)
+
+
+
 
           
 
