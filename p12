@@ -1,0 +1,6 @@
+#python program to find numbers divisible by another number
+num=int(input("enter a number to be checked the disibility"))
+for i in range(1,100):
+    if i%num==0:
+        print(i)
+    
