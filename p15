@@ -11,3 +11,13 @@ year=int(input("enter year: "))
 month=int(input("enter month: "))
 calender=calendar.month(year,month)
 print(calender)
+
+#python program to add two matrices
+a=print()
+b=print()
+for i in range(len(a)):
+    for j in range(len(b)):
+        result[i][j]=a[i][j]+b[i][j]
+
+        for r in result:
+            print(r)
