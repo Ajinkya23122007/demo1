@@ -11,3 +11,20 @@ for i in range (len(a)):
 
 for i in t:
     print(i)
+
+#using list comprihension
+a=[[1,2,3],
+   [4,5,6]]
+t=[[[a[j][i] for j in range (len(a))]] for i in range(len(a[0]))]
+for i in t:
+    print(i)
+    
+
+#python program to cehck wheather a stering is palindrome or not 
+word=str(input('enter a word'))
+rev=word[::-1]
+
+if word==rev:
+    print("it is a palindrome ")
+else:
+    print("it is not a palindrome ")    
