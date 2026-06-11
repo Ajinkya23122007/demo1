@@ -55,3 +55,5 @@ The different types of AI include:
 .Self-aware AI: Represents the most advanced form of AI, which has its own consciousness and self-awareness.
 .arrow AI (Weak AI): Designed to perform a specific task or a limited range of tasks.
 .General AI (Strong AI): Can understand, learn, and apply knowledge across a wide range of tasks like human intelligenc
+
+ai in real life  
