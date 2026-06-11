@@ -1,20 +1,27 @@
 #python program to shuffle cards
-import random,itertools
-deck=list(itertools.product(range(1,14),["spade","club","hearts","diamond"]))
-random.shuffle(deck)
-for i in range(5):
-    print(deck[i][0],"of",deck[i][1])
+# import random,itertools
+# deck=list(itertools.product(range(1,14),["spade","club","hearts","diamond"]))
+# random.shuffle(deck)
+# for i in range(5):
+#     print(deck[i][0],"of",deck[i][1])
 
-#python program to display calender 
-import calendar
-year=int(input("enter year: "))
-month=int(input("enter month: "))
-calender=calendar.month(year,month)
-print(calender)
+# #python program to display calender 
+# import calendar
+# year=int(input("enter year: "))
+# month=int(input("enter month: "))
+# calender=calendar.month(year,month)
+# print(calender)
 
 #python program to add two matrices
-a=print()
-b=print()
+a=[[1,2,3],
+   [2,3,4],
+   [5,6,7]]
+b=[[4,5,6],
+   [8,9,3],
+   [3,6,7]]
+result=[[0,0,0],
+        [0,0,0],
+        [0,0,0]]
 for i in range(len(a)):
     for j in range(len(b)):
         result[i][j]=a[i][j]+b[i][j]
