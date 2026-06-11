@@ -1,0 +1,57 @@
+wht is ai 
+.simulates human intelligence through computes system  
+.utilizes algorihtems and data to functions
+.enables machines to perfoem tasks requring human intelligence
+
+augmented intelligence
+.provides info backed with evidence
+.help experts make informed decision
+.helps scale experts ' capabilites
+.executes routine time consuming task
+
+how do define innate intelligence
+.intelligence that governs every activity in our body
+
+how does ai learn?
+machines.examine examples and create machine-learing models
+.supervised learing 
+.unsupervide learing 
+.reinforment learing
+
+types of ai 
+.weal ai(for specific domain) 
+.strong ai (diverse capabilites across unrelated tasks)
+.super ai(ai with human intelligince )
+
+
+capabilites of gen ai
+.offers divers contect creatin capabilities
+.enables human like coversation
+.grnrates traing data through data augmentation
+
+LLMs are advanced neural network architectures for
+processing and generating human-like text.
+
+Domain-specific use cases of generative AI are marketing, creative, and
+product development.
+Industry-specific use cases of generative AI are healthcare,
+gaming, fashion, and education and training
+
+The different types of AI include:
+
+.Diagnostic/descriptive AI: Focuses on assessing the correctness of behavior by analyzing historical data to understand what happened and why.
+
+.Predictive AI: Concerned with forecasting future outcomes based on historical and current data.
+
+.prescriptive AI: Focuses on determining the optimal course of action by providing recommendations based on data analysis.
+
+.Generative/cognitive AI: Involved in producing various types of content, such as code, articles, images, and more.
+
+.Reactive AI: Designed to respond to specific inputs with predetermined responses.
+
+.Limited memory AI: Have the ability to use past experiences to inform current decisions.
+
+.Theory of Mind AI: Advanced type of AI that aims to understand human emotions, beliefs, and intentions.
+.Self-aware AI: Represents the most advanced form of AI, which has its own consciousness and self-awareness.
+.arrow AI (Weak AI): Designed to perform a specific task or a limited range of tasks.
+.General AI (Strong AI): Can understand, learn, and apply knowledge across a wide range of tasks like human intelligenc
