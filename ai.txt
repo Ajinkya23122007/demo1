@@ -56,4 +56,39 @@ The different types of AI include:
 .arrow AI (Weak AI): Designed to perform a specific task or a limited range of tasks.
 .General AI (Strong AI): Can understand, learn, and apply knowledge across a wide range of tasks like human intelligenc
 
-ai in real life  
+.DALL-E model, exhibits the ability to generate images that precisely
+.For instance, StyleGAN model is used for producing high-quality images of faces and other objects.
+Super Resolution is another model used for enhancing the resolution of an image by increasing
+the number of pixels.
+.Along with text and image generation, Generative AI also facilitates the domains of voice and 
+
+music generation.
+.For instance, Murf is a platform at the forefront of AI voice generation technology, excelling
+in generating synthetic voices that closely replicate human speech nuances and tones.
+
+.OpenAI introduced Whisper, an open-source model that enables transcription in multiple
+languages as well as translation from those languages into English.
+Tools like Jukedeck and Amper Music use Generative AI algorithms to compose original music tracks
+based on user input.
+Other than those, AIVA allows you to generate new songs in m
+
+. OpenAI Sora is another model that can create realistic and imaginative scenes from text
+
+.Adobe utilizes Generative AI in Adobe Sensei, the company's AI and machine learning platform.
+It powers features such as automated photo editing and font recognition.
+
+Various LLMs like GPT, Palm, and Gemini are used for text generation.
+
+.Various tools such as ChatGPT and Google Gemini are based on such large language models.
+Generative AI also helps with image generation, with advanced models like Stable Diffusion
+and DALL-E.
+
+.Generative AI enhances voice and music generation, creating genres and moods with tools like
+Murf and AIVA.
+
+.Generative AI algorithms can create lifelike videos and models, 
+like Google's Imogen Video
+and OpenAI Sora.
+
+You also learned that popular companies such as Google, Salesforce, Adobe, and IBM have
+adopted and integrated with the technology of Generative AI.
