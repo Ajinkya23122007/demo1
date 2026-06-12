@@ -92,3 +92,122 @@ and OpenAI Sora.
 
 You also learned that popular companies such as Google, Salesforce, Adobe, and IBM have
 adopted and integrated with the technology of Generative AI.
+
+.cognative compusting
+has three core elements:
+perception, learning, and reasoning.
+
+ cognitive computing technology mimics
+human cognitive processes like
+thinking, reasoning, and problem-solving.
+
+ .deep learning uses
+neural networks with multiple layers to analyze complex data.
+
+.neural nteworks
+ a computational model consisting of interconnected nodes with three layers.
+
+ .machine learing 
+ There are three main types of machine learning.
+..Supervised learning,
+ which is trained on labels to classify new data.
+The more samples you provide a supervised learning algorithm, the more precise it becomes
+in classifying new data.
+..Unsupervised learning 
+that finds patterns in unlabeled data.
+It is useful for clustering similar data points and detecting anomalies.
+..reinforcement learning 
+that learns to achieve goals within a set of rules and constraints
+by maximizing rewards.
+It is applicable in tasks like playing chess or navigating obstacle courses.
+
+...supervised learning
+is divided into regression,
+classification, and neural networks.
+Regression estimates continuous values
+by analyzing the input output relationship.
+Neural networks imitate
+the human brain structure to process data,
+and classification focuses on
+discrete values by assigning
+class labels based on input features.
+
+
+model training involves splitting
+the dataset into training,
+validation, and testing sets.
+The training set trains the algorithm.
+The validation set fine-tunes and validates it,
+and the testing set evaluates
+its performance on new data.
+
+.deep learing
+layers algorithms to create a neural network.
+Deep learning enables AI systems
+to continuously learn and improve.
+Deep learning enhances
+AI's natural language understanding
+by grasping context and intent.
+Deep learning is highly effective in tasks
+like image captioning, voice recognition,
+facial recognition, medical imaging,
+language translation, and even driverless car technology.
+
+nerual networks
+neural networks are building blocks of AI
+systems inspired by the structure of the human brain.
+Neural networks consist of layers, including an input layer, one or
+more hidden layers, and an output layer.
+Neural networks rely on forward propagation to process data from input to
+output layers.
+Backpropagation adjusts internal parameters based on the loss calculated
+during forward propagation.
+Various types of neural networks include perceptron neural network,
+feed-forward, deep feed-forward, modular, convolutional neural network, and
+recurrent neural network.
+
+.the perceptron neural networks 
+are the simplest type of artificial neural
+network, consisting of only input and output layers.
+.In a feed-forward neural network
+, information flows in one direction,
+that is, forward.
+Each neuron in a layer receives input from neurons in the previous layer and
+then passes its output to neurons in the next layer.
+A deep feed-forward neural network
+is similar to feed-forward network
+with just more than one hidden layer.
+The modular neural network
+ combines two or
+more neural networks to arrive at the output.
+A convolutional neural network, or CNN
+, is a type of
+neural network that is particularly well suited for analyzing visual data.
+The term convolutional refers to a mathematical operation where a function is
+applied to another function, and the result is a mixture of the two functions.
+In CNNs, this process takes place through multiple layers,
+with each layer performing a convolutional on the output from the previous layer.
+In recurrent neural networks, or RNNs, each of the neurons in hidden layers
+receives an input with a specific delay in time.
+
+Generative AI model architectures include VAEs,
+GANs, autoregressive models, and transformers.
+VAEs use the encoder to convert
+the input data into latent space representation,
+then the latent space captures
+the characteristics of data,
+and finally, the decoder generates outputs.
+GANs use the generator to generate
+new data samples and
+the discriminator to verify the generated data.
+Autoregressive models create data sequentially,
+taking into account the context
+of earlier generated elements.
+Transformers generate text sequences or
+perform cross-language translations effectively.
+Models can be categorized into unimodal or multimodal.
+Unimodal models process inputs and
+generate outputs within the same modality,
+and multimodal models handle inputs from
+one modality and produce outputs in a different modality.
+
