@@ -22,3 +22,18 @@ w=a.split()
 for i in range(len(a)):
     w.sort()
     print(w)      
+
+
+#pyhton program to count the numbers of vowels
+a="ajinkya arun bhatkande"
+vowels="aeiou"
+
+a=a.casefold()
+print(a)
+count={}.fromkeys(vowels,0)
+
+for char in a:
+    if char in count:
+        count[char]+=1
+
+print(count)        
