@@ -211,3 +211,46 @@ generate outputs within the same modality,
 and multimodal models handle inputs from
 one modality and produce outputs in a different modality.
 
+agents in AI are software programs that engage with surroundings,
+process data, and autonomously carry out tasks to meet human-defined goals.
+You also learned about the key traits of AI agents.
+
+Social ability means agents can talk and work with others,
+autonomy means they can work alone and decide things by themselves.
+Reactiveness lets them quickly react to changes, and
+proactiveness means they can take charge and make decisions to reach their goals.
+
+Finally, you learned that multi-agent systems facilitate distributed
+problem-solving and cooperative decision-making,
+and how the same can be applied in varied areas such as online marketplaces,
+robotic coordination, and traffic management.
+
+trobotics involves designing,
+constructing, and operating robots to
+perform tasks with or without humans.
+It utilizes sensors to
+observe processors for decision making,
+actuators for movement, integrating technologies like AI,
+machine learning, and NLP for automation.
+Further, you learned about cobots,
+which collaborate with humans
+using advanced sensors and AI,
+communicating and coordinating
+tasks that require teamwork.
+Lastly, you learned that robotic process automation or
+RPA automates repetitive tasks and helps create,
+use, and control virtual robots.
+
+AI automates repetitive tasks for businesses,
+like data entry, scheduling, and report generation,
+and allows employees to focus
+more on creative and strategic work.
+
+AI enables businesses to swiftly analyze
+large data volumes by identifying patterns and trends,
+leading to fewer errors and better predictions.
+AI generates innovative ideas and overcomes
+
+creative blocks by helping
+businesses resonate with the target audience,
+leading to higher engagement and sales.
