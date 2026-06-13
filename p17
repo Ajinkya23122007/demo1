@@ -14,4 +14,11 @@ for i in range(len(a)):
             result[i][j] += a[i][k]*b[k][j]
 
 for i in result:
-    print(i)            
+    print(i)          
+
+#python program to sort words in alphabatical method
+a="harry potter and the golbet of fire"
+w=a.split()
+for i in range(len(a)):
+    w.sort()
+    print(w)      
