@@ -1,0 +1,8 @@
+#python program to find size (resolution) of a image
+import plistlib
+from plistlib import image
+
+img=plistlib.open("")
+width , height =img.size
+
+print(width,"x",height)
