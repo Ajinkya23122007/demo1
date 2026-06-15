@@ -6,3 +6,5 @@ img=plistlib.open("")
 width , height =img.size
 
 print(width,"x",height)
+
+#python 
