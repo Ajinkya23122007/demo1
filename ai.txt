@@ -320,6 +320,22 @@ Finally, you gained insights into the ethical considerations urging developers
 to prioritize fairness, accountability, and social benefits in AI development.
 
 
+AI explainability 360 helps understand and
+interpret AI models to ensure transparency.
+AI fairness 360 provides metrics and algorithms to detect and
+mitigate bias in AI systems.
+Adversarial robustness 360 helps enhance AI systems security against
+adversarial attacks.
+AI fact sheets 360 promotes transparency by documenting AI models, processes, and
+performance, and AI privacy 360 safeguards user data privacy within AI applications.
+
+microsoft's approach to ethical AI,
+which involves human in the loop systems, continuous monitoring and improvement.
+Regular audits using AIA, internal review bodies, and responsible AI standards.
+You explored Google's principles focused on benefiting society, ensuring fairness,
+holding accountability, and upholding high standards of scientific excellence.
+
+
 
 
 
