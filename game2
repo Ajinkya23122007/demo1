@@ -1,0 +1,12 @@
+import random
+words = ["apple", "banana", "cherry", "date", "elderberry"]
+word = random.choice(words)
+jumble = ''.join(random.sample(word, len(word)))
+chances = 3
+print("~~~"*20)
+print("~~~~~~~wlcome to jumbled words game~~~~~~~~")
+print("~~~"*20)
+
+
+
+
