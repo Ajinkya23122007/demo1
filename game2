@@ -21,6 +21,11 @@ while chances != 0:
         print("incorrect guess")
         print("reaming chances are ",chances)
 
+else:
+    print("your chances are over")
+    print("you lose")
+    print("the correct word is ",word)
+
 
 
 
