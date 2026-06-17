@@ -1,5 +1,5 @@
 import random
-words = ["apple", "banana", "cherry", "date", "elderberry"]
+words = ["apple", "banana", "cherry", "date", "elderberry"]#or we can add a txt file including many words ..open it in read mood 
 word = random.choice(words)
 jumble = ''.join(random.sample(word, len(word)))
 chances = 3
