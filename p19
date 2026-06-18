@@ -1,0 +1,4 @@
+#python program to extract user from email
+name=input("ENTER YOUR EMAIL")
+x=name.index("@")
+print(name[0:x])
