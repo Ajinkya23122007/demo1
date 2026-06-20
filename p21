@@ -1,0 +1,11 @@
+#puthon program to check if a list is empty
+#using boolean operation
+list=[]
+if not list:
+    print("the lsit is empty")
+
+#using len() fuction
+list=[1,2,3,4,5]
+print(len(list))
+if len(list)==0:
+    print("the list is empty")
