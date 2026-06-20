@@ -1,4 +1,4 @@
-#puthon program to check if a list is empty
+#python program to check if a list is empty
 #using boolean operation
 list=[]
 if not list:
@@ -38,3 +38,13 @@ l2=[5,6,7,8,"y","a"]
 
 l1.extend(l2)
 print(l1)
+
+#python program to check if a key already present in a dictonary
+
+frinends={"aj":"ross","snorlex":"POKE","ri":".."}
+name=input("enter a key here")
+
+if name in frinends.keys():
+    print("it is present")
+else:
+    print("its not present")    
