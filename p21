@@ -9,3 +9,9 @@ list=[1,2,3,4,5]
 print(len(list))
 if len(list)==0:
     print("the list is empty")
+
+
+#usnig []
+list=[]
+if list==[]:
+    print("the lsit is empty")
