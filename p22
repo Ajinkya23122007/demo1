@@ -1,0 +1,6 @@
+#python program to remove punctions from the string
+punc="{@#$%|}^&*~~??>!<"
+
+string=input("enter anything here")
+
+
