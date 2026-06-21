@@ -1,6 +1,11 @@
 #python program to remove punctions from the string
-punc="{@#$%|}^&*~~??>!<"
+punc="{@#$%|}^&*~~?>!<"
 
 string=input("enter anything here")
+empty=[]
+for i in string:
+    if i not in punc:
+        empty += i
 
+print(empty)
 
