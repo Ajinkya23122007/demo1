@@ -24,3 +24,9 @@ l=[23,45,67,87]
 for index in range(len(l)):
     value =l[index]
     print(index,value)
+
+
+#python program to print output without new line
+print("ajinkya",end=" ")
+print("bhatkande")
+
