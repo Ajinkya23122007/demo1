@@ -9,3 +9,14 @@ for i in string:
 
 print(empty)
 
+
+
+#python program to access of a list using for loop
+#using enumerate method
+
+l=[23,45,67,87]
+for index, value in enumerate(l,start=1):
+    print(index,"-",value)
+
+
+
