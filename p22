@@ -19,4 +19,8 @@ for index, value in enumerate(l,start=1):
     print(index,"-",value)
 
 
-
+#using for loop
+l=[23,45,67,87]
+for index in range(len(l)):
+    value =l[index]
+    print(index,value)
