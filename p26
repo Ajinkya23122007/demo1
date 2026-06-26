@@ -30,3 +30,15 @@ def circle_stats(radius):
 
 
 print(circle_stats(4))
+
+
+#create a function that greets a user and set default user when not given input
+def greet(name="ajinkya"):
+    return "hello " + name +  " !"
+
+print(greet("snorlex"))
+
+#lamdba function to compute the cube of a given number
+
+cube=lambda x:x ** 3
+print(cube(3))
