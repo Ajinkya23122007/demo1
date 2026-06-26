@@ -5,3 +5,11 @@ def square(number):
     return number ** 2
 
 print(square(4))
+
+
+#create a fuction that takes two numbers as parameters and return thier sum
+
+def sum(a,b):
+    return a+b
+
+print(sum(7,6))
