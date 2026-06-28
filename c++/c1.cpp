@@ -30,6 +30,20 @@ cout<<"factorail of a given number is "<<fact;
 }
 
 
+/ #check if number is odd or even
+#include<iostream>
+using namespace std;
+int main(){
+int n=6;
+cout<<"this program checks if a given number is odd or even";
+if (
+(n%2==0)
+);
+    
+
+cout<<"number is a even number";
+else
+cout<<"number is odd number";
 
 
 
