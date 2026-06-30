@@ -1,0 +1,9 @@
+#inlude<iostream.h>
+using namespace std
+int main(){
+    int a=78;
+    int b=2;
+    sum=a+b;
+    cout<<"sum equal to"<<sum;
+
+}
