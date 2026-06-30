@@ -6,8 +6,8 @@
     int a,b;
     cin>>a;
     cin>>b;
-    for (int i=0;i<=b;i++){
-        
+    for (int i=1;i<=b;i++){
+        res=res*a;
     }
-    
+    cout<<"a to the power is"<<res;
   }
