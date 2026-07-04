@@ -1,23 +1,13 @@
 #include<iostream>
-// using namespace std;
+//  using namespace std;
 
-// int main(){
-//     int n;
-//     cin>>n;
-//     bool isprime=1;
-//     for(int i=2;i<n;i++){
-//         if(n%i==0){
-//             //cout<<" not a prime number"<<endl;
-//             isprime=0;
-//             break;
-//         }
+//   int main(){
+//     int res=1;
+//     int a,b;
+//     cin>>a;
+//     cin>>b;
+//     for (int i=1;i<=b;i++){
+//         res=res*a;
 //     }
-//     if(isprime==0)
-//     {
-//             cout<<"not a prime number";
-//     }
-//      else{
-//             cout<<"is a prime number";
-//      }
-
-//  }
+//     cout<<"a to the power is"<<res;
+//   }
