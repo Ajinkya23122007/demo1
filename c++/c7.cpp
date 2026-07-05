@@ -5,7 +5,7 @@
     int res=1;
     int a,b;
     cin>>a;
-    cin>>b;
+    cin>>b;/
     for (int i=1;i<=b;i++){
         res=res*a;
     }
@@ -31,7 +31,7 @@ if(sum==temp){
 else{
   cout<<"not a armstrong number";
 }
-}  
+ }  
 
 
 #include<iostream>
@@ -47,3 +47,23 @@ while(n!=0){
 }
 
 cout<<"sum of digit is"<<sum
+
+
+//program to covert decimal to binary
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main(){
+  int n,i=0,ans=0;
+  int bit;
+  cin>>n;
+  while(n!=0){
+    bit=n & 1;
+    ans=(bit*pow(10,i))+ans;
+    n >> 1;
+    i++;
+  }
+  cout<<"the answer is "<<ans;
+
+}
