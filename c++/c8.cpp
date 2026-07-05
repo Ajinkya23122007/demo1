@@ -17,3 +17,15 @@ int main(){
     }
     cout<<"the answer is "<<ans<<endl;
 }
+
+
+#include<iostream>
+#include<math.h>
+int main(){
+    int n,rem;
+    cout<<"enter a decimal number";
+    cin>>n;
+    while(n!=0){
+        rem=n/10;
+    }
+}
