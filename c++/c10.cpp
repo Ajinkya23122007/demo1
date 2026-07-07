@@ -25,3 +25,10 @@ void sortarr(int arr[],int n){
 
     }
 }
+int main(){
+    int arr[6]={0,1,0,0,1,1},n;
+    cout <<"enter a size"<<endl;
+    cin>>n;
+    sortarr(arr,n);
+    printarray(arr,n);
+}
