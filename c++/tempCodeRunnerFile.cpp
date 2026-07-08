@@ -1,34 +1,33 @@
-#include<iostream>
-//  using namespace std;
 
-//   int main(){
-//     int res=1;
-//     int a,b;
-//     cin>>a;
-//     cin>>b;
-//     for (int i=1;i<=b;i++){
-//         res=res*a;
-//     }
-//     cout<<"a to the power is"<<res;
-//   }
-
-
-// //program to checnk armstrong number 
 // #include<iostream>
 // using namespace std;
+
+
+// int peaksort(int arr[],int n){
+//     int start=0;
+//     int end=n-1;
+//     int mid=start+(end-start)/2;
+//     while(start<end){
+//         if(arr[mid]<arr[mid+1]){
+//             start=mid + 1;
+
+//         }
+//         else{
+//             end=mid;
+//         }
+//         mid=start+(end-start)/2;
+
+//     }
+//     return start;
+
+// }
 // int main(){
-// int n,temp,sum=0,digit;
-// cin>>n;
-// temp=n;
-// while(n!=0){
-//   digit=n%10;
-//   sum=sum+ digit*digit*digit;
-//   n=n/10;
+//     int arr[5]={1,2,3,6,7}, n;
+//     cout <<"this program find peak elemtns in array"<<endl;
+//     cout<<"enter a size"<<endl;
+//     cin>>n;
+//     int prakindex=peaksort(arr,n);
+//     cout<<"the peak element is at index "<<prakindex<<endl;
+//     return 0;
+
 // }
-// if(sum==temp){
-//   cout<<"its a armstrong number";
-// }
-// else{
-//   cout<<"not a armstrong number";
-// }
-// }  
