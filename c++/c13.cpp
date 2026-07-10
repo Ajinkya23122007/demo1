@@ -25,3 +25,11 @@ int sqrtbinarysearch(int n){
    return ans;
 }
 
+int main(){
+    int n;
+    cout<<"this program finds sqrt of number using binary sreach"<<endl;
+    cout<<"enter a number";
+    cin>>n;
+    sqrtbinarysearch(n);
+}
+
