@@ -4,7 +4,6 @@ using namespace std;
 int main(){
     int arr[5]={2,0,4,1,6};
     int n;
-    int ans;
     cout<<"enter a size"<<endl;
     cin >> n;
     for(int i=0;i<n-1;i++){
@@ -16,6 +15,10 @@ int main(){
         }
         swap(arr[minindex],arr[i]);
     }    
+    for (int i=0;i<n;i++){
+        cout<<arr[i]<<endl;
+    }
+
 }
 
 //bubble sort 
