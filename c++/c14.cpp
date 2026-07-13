@@ -45,3 +45,32 @@ int main(){
     
 
 }
+
+//insertion sort
+
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[5]={2,0,4,1,6};
+    int n;
+    int temp=0;
+    cout<<"enter a size"<<endl;
+    cin>>n;
+    for (int i=01;i<n;i++){
+        temp=arr[i];
+        int j=i-1
+        for(;j>=0;j--){
+            if(arr[j]>temp){
+                arr[j+1]=arr[j];
+            }
+            else{
+                break;
+            }
+        }
+        arr[j+1]=temp;
+    }
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<endl;
+    }
+    
+}
