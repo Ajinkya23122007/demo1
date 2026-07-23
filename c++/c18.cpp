@@ -61,3 +61,17 @@ public:
        return image;     
     }
 };
+
+
+//power of two
+#include<iostream>
+int main(){
+    int n
+    cin>>n;
+    for(int i=0;i<n;i++){
+        if(pow(2,i)==n){
+            return 1;
+        }
+    }
+    return 0;
+}
