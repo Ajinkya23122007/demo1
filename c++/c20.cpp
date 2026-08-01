@@ -89,7 +89,7 @@ public:
 };
 
 
-//Minimum Number of Pushes to Type
+//Minimum Number of Pushes to Type word
 class Solution {
 public:
     int minimumPushes(string word) {
