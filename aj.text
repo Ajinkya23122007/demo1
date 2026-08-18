@@ -1,0 +1,133 @@
+Step 1: Unzip the file
+Download sre-sidekick.zip and unzip it somewhere on your computer, like your Desktop.
+
+Step 2: Check you have the basic tools
+Open a terminal (Command Prompt / Terminal app) and check these are installed:
+
+python3 --version
+docker --version
+git --version
+
+If any of these say "command not found," install it first:
+
+Python: python.org/downloads
+Docker: docker.com/get-started (also install "Docker Desktop" if you're on Mac/Windows, then open the app once so it's running)
+Git: git-scm.com
+
+Step 3: Get SigNoz running on your computer
+This is the observability tool everything sends data to.
+
+git clone -b main https://github.com/SigNoz/signoz.git
+cd signoz/deploy/docker
+docker compose up -d
+
+Wait 2-3 minutes, then open http://localhost:8080 in your browser. If you see the SigNoz dashboard, it worked.
+
+Step 4: Set up the agent app
+Open a new terminal tab, go to the unzipped folder:
+
+cd sre-sidekick/app
+python3 -m venv venv
+source venv/bin/activate
+
+(On Windows, instead use: venv\Scripts\activate)
+
+Then install what it needs:
+
+pip install -r requirements.txt
+
+Step 5: Set the config file
+
+cp ../.env.example .env
+Step 1: Unzip the file
+Download sre-sidekick.zip and unzip it somewhere on your computer, like your Desktop.
+
+Step 2: Check you have the basic tools
+Open a terminal (Command Prompt / Terminal app) and check these are installed:
+
+python3 --version
+docker --version
+git --version
+
+If any of these say "command not found," install it first:
+
+Python: python.org/downloads
+Docker: docker.com/get-started (also install "Docker Desktop" if you're on Mac/Windows, then open the app once so it's running)
+Git: git-scm.com
+
+Step 3: Get SigNoz running on your computer
+This is the observability tool everything sends data to.
+
+git clone -b main https://github.com/SigNoz/signoz.git
+cd signoz/deploy/docker
+docker compose up -d
+
+Wait 2-3 minutes, then open http://localhost:8080 in your browser. If you see the SigNoz dashboard, it worked.
+
+Step 4: Set up the agent app
+Open a new terminal tab, go to the unzipped folder:
+
+cd sre-sidekick/app
+python3 -m venv venv
+source venv/bin/activate
+
+(On Windows, instead use: venv\Scripts\activate)
+
+Then install what it needs:
+
+pip install -r requirements.txt
+
+Step 5: Set the config file
+
+cp ../.env.example .env
+
+Open .env in any text editor — the defaults should already work if SigNoz is running locally, so you can likely leave it as-is.
+
+Step 6: Run the agent
+
+python agent.py --task "summarize latest incident" --runs 20
+
+This runs the fake agent 20 times, sending traces to SigNoz.
+
+Step 7: Look at the results
+Go back to http://localhost:8080, click Traces in the sidebar. You should see the runs show up, including some that failed or were slow (that's intentional, so you have something to investigate).
+
+Step 8: Make it your own project
+Right now the "agent" is fake — it just sleeps and pretends. Your actual hackathon work is:
+
+Swap the fake LLM call in tools.py for a real one (OpenAI or Anthropic API)
+Swap the fake vector DB call for a real one (Chroma or Qdrant are easy to start with)
+Get the self-debugging part (mcp_client.py) actually talking to SigNoz's MCP server
+
+Step 9: Build a dashboard + alert
+In the SigNoz UI, make one dashboard panel (like "failure rate" or "latency") and one alert rule. This is a judging criterion, don't skip it.
+
+Step 10: Record a demo and submit
+Follow docs/submission_checklist.md in the zip — it has the exact list of what to show in your demo video and what to submit.
+
+Want me to walk through Step 8 with you next — actually wiring in a real LLM call?
+Open .env in any text editor — the defaults should already work if SigNoz is running locally, so you can likely leave it as-is.
+
+Step 6: Run the agent
+
+python agent.py --task "summarize latest incident" --runs 20
+
+This runs the fake agent 20 times, sending traces to SigNoz.
+
+Step 7: Look at the results
+Go back to http://localhost:8080, click Traces in the sidebar. You should see the runs show up, including some that failed or were slow (that's intentional, so you have something to investigate).
+
+Step 8: Make it your own project
+Right now the "agent" is fake — it just sleeps and pretends. Your actual hackathon work is:
+
+Swap the fake LLM call in tools.py for a real one (OpenAI or Anthropic API)
+Swap the fake vector DB call for a real one (Chroma or Qdrant are easy to start with)
+Get the self-debugging part (mcp_client.py) actually talking to SigNoz's MCP server
+
+Step 9: Build a dashboard + alert
+In the SigNoz UI, make one dashboard panel (like "failure rate" or "latency") and one alert rule. This is a judging criterion, don't skip it.
+
+Step 10: Record a demo and submit
+Follow docs/submission_checklist.md in the zip — it has the exact list of what to show in your demo video and what to submit.
+
+Want me to walk through Step 8 with you next — actually wiring in a real LLM call?
