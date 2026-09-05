@@ -27,7 +27,7 @@ int main(){
     male m1;
     cout<<m1.age<<endl;
     cout<<m1.height<<endl;
-    m1.sleep();
+    m1.sleep( );
     m1.setweight(78);
     cout<<m1.weight<<endl;
 
